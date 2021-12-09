@@ -1,0 +1,14 @@
+.produtos{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.nome{
+  margin: .5rem 0 ;
+}
+
+.produtoImg:hover{
+  opacity: .8;
+  transition: opacity .3s ease;
+}
